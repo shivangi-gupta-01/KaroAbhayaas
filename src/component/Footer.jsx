@@ -1,15 +1,15 @@
 const Footer = () => (
-    <div className='footer-container'>
-        <div className='footer-sub-container'>
-            <p className='footer-text'>KARO ABHAYAAS</p>
-            <p className='footer-text'>112, ELECTRONIC CITY</p>
-            <p className='footer-text'>BANGALORE, INDIA</p>
+    <div className='flex flex-row justify-between items-center flex-wrap w-full bg-black'>
+        <div className=' w-72'>
+            <p className=' text-white m-1'>KARO ABHAYAAS</p>
+            <p className='text-white m-1'>112, ELECTRONIC CITY</p>
+            <p className='text-white m-1'>BANGALORE, INDIA</p>
         </div>
-        <div className='footer-sub-container'>
-            <p className='footer-text'>SOME TEXT ABOUT SOMETHING</p>
-            <p className='footer-text'>AND THEN SOME OTHER THING</p>
-            <button className='footer-btn'>CONTACT US</button>
-            <button className='footer-btn'>CONTACT US</button>
+        <div className=' w-72'>
+            <p className='text-white m-1'>SOME TEXT ABOUT SOMETHING</p>
+            <p className='text-white m-1'>AND THEN SOME OTHER THING</p>
+            <button className=' bg-white text-black p-2 text-sm font-medium rounded cursor-pointer border-0 m-2'>CONTACT US</button>
+            <button className='bg-white text-black p-2 text-sm font-medium rounded cursor-pointer border-0 m-2'>CONTACT US</button>
         </div>
     </div>
 )

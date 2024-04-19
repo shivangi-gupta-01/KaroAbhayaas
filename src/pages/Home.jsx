@@ -21,13 +21,13 @@ function Home() {
       <div className="w-full mx-auto">
         <Slider {...settings} className="md:h-50">
           <div>
-            <img className="w-full h-full md:h-[500px] object-cover  " src='https://onlineschoolsindia.in/wp-content/uploads/2021/11/indian-student-raising-hands-online-class.jpg' alt="Slide 1" />
+            <img className="w-full h-full md:h-[500px] object-cover  " src='https://media.istockphoto.com/id/1307257555/photo/teenager-girl-during-homeschooling.jpg?s=612x612&w=0&k=20&c=7jiJdzd27ee-rnnNg5ohuo4qM1H4dYGyH-3RKVlGbhQ=' alt="Slide 1" />
           </div>
           <div>
-            <img className="w-full h-full md:h-[500px] object-cover  " src='https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29sbGVnZXxlbnwwfHwwfHx8MA%3D%3D' alt="Slide 2" />
+            <img className="w-full h-full md:h-[500px] object-cover  " src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6jBx4CBGs3YORwi-wEPZkAKG9izVCRRNZUv1WRsBozi6KPJl6ftW9GgpYOM6jgtJX9ng&usqp=CAU' alt="Slide 2" />
           </div>
           <div >
-            <img className="w-full h-full md:h-[500px] object-cover " src='https://www.faulkner.edu/wp-content/uploads/Student-taking-online-class.jpg' alt="Slide 3" />
+            <img className="w-full h-full md:h-[500px] object-cover " src='https://media.istockphoto.com/id/862661268/photo/the-student-life.jpg?s=1024x1024&w=is&k=20&c=pudj1YXDhrykmE1c01ny1yBmzt2oh5V8oKWkrniFEXU=' alt="Slide 3" />
           </div>
           {/* Add more slides as needed */}
         </Slider>

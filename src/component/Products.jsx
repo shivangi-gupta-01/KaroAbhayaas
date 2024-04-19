@@ -3,7 +3,7 @@ import { Prodcuts } from '../data/data'
 
 const Products = () => {
   return (
-    <div className=' mt-10 flex justify-center flex-col p-4 md:w-[900px] mx-auto'>
+    <div className=' mt-10 flex justify-center flex-col p-4 md:w-[1200px] mx-auto'>
    <input className="border border-gray-300 px-3 py-2 mb-4 rounded-lg focus:outline-none focus:ring focus:border-blue-300 w-full" placeholder="Enter your input here" />     
 {
     Prodcuts.map((item,id)=>(

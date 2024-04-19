@@ -17,7 +17,7 @@ const Cart = () => {
   return (
     <div className="border border-black mt-10 flex justify-center flex-col p-4 md:w-[900px] mx-auto ">
       <div className='flex justify-between'>
-        <p className='text-lg font-bold'>TOTAL:₹2000</p>
+        <p className='text-lg font-bold'>TOTAL:₹1500</p>
         <button className='bg-black text-white px-4 py-2' onClick={handleCheckout}>CHECKOUT</button>
       </div> 
       <hr className="my-8 border-t border-black" /> 
